@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+}
+
+/* Estilos adicionales para manejar el scroll en diferentes navegadores */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4B5563 #E5E7EB;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #E5E7EB;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #4B5563;
+  border-radius: 20px;
+  border: 2px solid #E5E7EB;
+}
